@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>FoodSafe</h1>
+
+    <br> <label for="contractAddress">Contract Address:</label> <input type="text" id="contractAddress" placeholder="Scan address or create a new contract"></input>
+    <br> <label for="locationId">Location Id:</label> <input type="text" id="locationId" placeholder="Enter the ID of the location"></input>
+    <br> <label for="locationName">Location Name:</label> <input type="text" id="locationName" placeholder="Location name"></input>
+    <br> <label for="secret">Secret:</label> <input type="text" id="secret" placeholder="Enter secret"></input>
+    <br> <label for="passPhrase">Passphrase:</label> <input type="text" id="passPhrase" placeholder="Enter or scan passphrase"></input>
+
+    <br> <br>
+    <button id="createContract" onclick="App.createContract()">Create New Contract</button>
+    <br> <br>
+    <button id="addNewLocation" onclick="App.addNewLocation()">Add New Location</button>
+    <br> <br>
+    <button id="getCurrentLocation" onclick="App.getCurrentLocation()">Get the current Location</button>
+
+</body>
+</html>

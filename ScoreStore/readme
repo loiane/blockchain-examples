@@ -1,0 +1,6 @@
+truffle development
+migrate
+var ss
+ScoreStore.deployed().then(function (deployed) {ss=deployed;});
+ss.addPersonScore("Loiane", 10);
+ss.getScore.call("Loiane");
